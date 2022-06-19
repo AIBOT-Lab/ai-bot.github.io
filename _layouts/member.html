@@ -6,17 +6,17 @@ layout: default
     <div class=row>
         <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/team">Team</a></li>
-            <li class="breadcrumb-item text-capitalize"><a href="/team#{{ page.category }}">{{ page.category }}</a></li>
+            <li class="breadcrumb-item"><a href="/members">Members</a></li>
+            <li class="breadcrumb-item text-capitalize"><a href="/members#{{ page.category }}">{{ page.category }}</a></li>
             <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
         </ol>
         </nav>
     </div>
     <div class="row text-center">
         <!-- Avatar -->
-        <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ page.image }}"
+        <img src="{{ site.url }}{{ site.baseurl }}/images/members/{{ page.image }}"
              class="img-circle"
-             style="filter: grayscale(100%); max-width: 200px;"/>
+             style="max-width: 200px;"/>
 
         <!-- Name & Role -->
         <h1>{{ page.title }}</h1>
@@ -55,12 +55,12 @@ layout: default
         </ul>
     </div>
 
-    <!-- Education -->
+    <!-- Interests -->
     <div class="row">
-        <h3>Education</h3>
+        <h3>Interests</h3>
         <ul class="list-unstyled">
-            {% for education in page.education %}
-                <li>{{education}}</li>
+            {% for interest in page.interests %}
+                <li>{{interest}}</li>
             {% endfor %}
         </ul>
     </div>

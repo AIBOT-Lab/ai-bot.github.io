@@ -1,9 +1,9 @@
 ---
 layout: member
-category: staff
+category: Present-Master
 title: Researcher Name
 image: researcher.png
-role: Lab Director
+role: Master Course
 permalink: 'team/researcher-name'
 social:
     twitter: https://twitter.com/

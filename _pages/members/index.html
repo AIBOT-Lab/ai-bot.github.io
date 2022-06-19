@@ -1,0 +1,166 @@
+---
+title: "Members"
+layout: default
+excerpt: "MLBA Lab: Team members"
+sitemap: false
+permalink: /members/
+---
+
+<h1>{{page.title}}</h1>
+
+<!-- present -->
+
+<h2><a id="present"></a>Present</h2>
+<h3>Ph.D Course</h3>
+{% assign members = site.posts | where: 'category', 'Present-PhD' | sort: 'date' %}
+{% for member in members %}
+<div class="card team-member-card">
+    <div class="row mt-3">
+        <div class="col-md-2">
+            <a href={{member.url}}>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/members/{{ member.image }}"
+                    class="card-img img-responsive img-thumbnail"
+                    style="max-width: 100px;"/>
+            </a>
+        </div>
+
+        <div class="col-md-10">
+            <div class="card-body">
+            <h4 class="card-title">{{ member.title }}</h4>
+            <p class="card-text">{{ member.role }}</p>
+            <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ member.papers.master.filename }}"><p class="card-text">{{ member.papers.master.title }}</p></a>
+            <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ member.papers.phd.filename }}"><p class="card-text">{{ member.papers.phd.title }}</p></a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+<h3>Master Course</h3>
+{% assign members = site.posts | where: 'category', 'Present-Master' | sort: 'date' %}
+{% for member in members %}
+<div class="card team-member-card">
+    <div class="row mt-3">
+        <div class="col-md-2">
+            <a href={{member.url}}>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/members/{{ member.image }}"
+                    class="card-img img-responsive img-thumbnail"
+                    style="max-width: 100px;"/>
+            </a>
+        </div>
+
+        <div class="col-md-10">
+            <div class="card-body">
+            <h4 class="card-title">{{ member.title }}</h4>
+            <p class="card-text">{{ member.role }}</p>
+            <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ member.papers.master.filename }}"><p class="card-text">{{ member.papers.master.title }}</p></a>
+            <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ member.papers.phd.filename }}"><p class="card-text">{{ member.papers.phd.title }}</p></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endfor %}
+
+<h3>Undergraduate Students</h3>
+{% assign members = site.posts | where: 'category', 'Present-Undergraduate' | sort: 'date' %}
+{% for member in members %}
+<div class="card team-member-card">
+    <div class="row mt-3">
+        <div class="col-md-2">
+            <a href={{member.url}}>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/members/{{ member.image }}"
+                    class="card-img img-responsive img-thumbnail"
+                    style="max-width: 100px;"/>
+            </a>
+        </div>
+
+        <div class="col-md-10">
+            <div class="card-body">
+            <h4 class="card-title">{{ member.title }}</h4>
+            <p class="card-text">{{ member.role }}</p>
+            <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ member.papers.master.filename }}"><p class="card-text">{{ member.papers.master.title }}</p></a>
+            <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ member.papers.phd.filename }}"><p class="card-text">{{ member.papers.phd.title }}</p></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endfor %}
+<!-- former -->
+<h2><a id="former"></a>Former</h2>
+<h3>Ph.D Course</h3>
+{% assign members = site.posts | where: 'category', 'Former-PhD' | sort: 'date' %}
+{% for member in members %}
+<div class="card team-member-card">
+    <div class="row mt-3">
+        <div class="col-md-2">
+            <a href={{member.url}}>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/members/{{ member.image }}"
+                    class="card-img img-responsive img-thumbnail"
+                    style="max-width: 100px;"/>
+            </a>
+        </div>
+
+        <div class="col-md-10">
+            <div class="card-body">
+            <h4 class="card-title">{{ member.title }}</h4>
+            <p class="card-text">{{ member.role }}</p>
+            <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ member.papers.master.filename }}"><p class="card-text">{{ member.papers.master.title }}</p></a>
+            <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ member.papers.phd.filename }}"><p class="card-text">{{ member.papers.phd.title }}</p></a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+<h3>Master Course</h3>
+{% assign members = site.posts | where: 'category', 'Former-Master' | sort: 'date' %}
+{% for member in members %}
+<div class="card team-member-card">
+    <div class="row mt-3">
+        <div class="col-md-2">
+            <a href={{member.url}}>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/members/{{ member.image }}"
+                    class="card-img img-responsive img-thumbnail"
+                    style="max-width: 100px;"/>
+            </a>
+        </div>
+
+        <div class="col-md-10">
+            <div class="card-body">
+            <h4 class="card-title">{{ member.title }}</h4>
+            <p class="card-text">{{ member.role }}</p>
+            <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ member.papers.master.filename }}"><p class="card-text">{{ member.papers.master.title }}</p></a>
+            <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ member.papers.phd.filename }}"><p class="card-text">{{ member.papers.phd.title }}</p></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endfor %}
+
+<h3>Undergraduate Students</h3>
+{% assign members = site.posts | where: 'category', 'Former-Undergraduate' | sort: 'date' %}
+{% for member in members %}
+<div class="card team-member-card">
+    <div class="row mt-3">
+        <div class="col-md-2">
+            <a href={{member.url}}>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/members/{{ member.image }}"
+                    class="card-img img-responsive img-thumbnail"
+                    style="max-width: 100px;"/>
+            </a>
+        </div>
+
+        <div class="col-md-10">
+            <div class="card-body">
+            <h4 class="card-title">{{ member.title }}</h4>
+            <p class="card-text">{{ member.role }}</p>
+            <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ member.papers.master.filename }}"><p class="card-text">{{ member.papers.master.title }}</p></a>
+            <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ member.papers.phd.filename }}"><p class="card-text">{{ member.papers.phd.title }}</p></a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
