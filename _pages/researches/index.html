@@ -1,0 +1,43 @@
+---
+title: "Researches"
+layout: default
+excerpt: "MLBA Lab: Researches"
+sitemap: false
+permalink: /researches/
+---
+
+<h1>{{page.title}}</h1>
+{% assign researches = site.posts reversed | where: 'category', 'Research'%}
+{% for research in researches %}
+<div class="card research-card">
+    <div class="row mt-3">
+        {% if research.image %}
+        <div class="col-md-6">
+            <a href={{research.url}}>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/researches/{{ research.image }}"
+                    class="card-img img-responsive img-thumbnail"
+                    style="max-width: 400px;"/>
+            </a>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card-body">
+                <a href={{research.url}}>
+                    <h3 class="card-title">{{ research.title }}</h3>
+                    <h4 class="card-text">{{ research.subtitle }}</h4>
+                </a>
+            </div>
+        </div>
+        {% else %}
+        <div class="col-md-12">
+            <div class="card-body">
+                <a href={{research.url}}>
+                    <h3 class="card-title">{{ research.title }}</h3>
+                    <h4 class="card-text">{{ research.subtitle }}</h4>
+                </a>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endfor %}

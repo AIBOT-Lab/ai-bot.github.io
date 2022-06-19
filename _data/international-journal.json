@@ -1,0 +1,64 @@
+[
+	{
+		"type": "article-journal",
+		"title": "Phylogenetic Tree Construction Using Sequential Stochastic Approximation Monte Carlo",
+		"container-title": "BioSystems(1.784)",
+		"page": "94-107",
+		"volume": "91",
+		"issue": "1",
+		"source": "ScienceDirect",
+		"abstract": "Monte Carlo methods have received much attention recently in the literature of phylogenetic tree construction. However, they often suffer from two difficulties, the curse of dimensionality and the local-trap problem. The former one is due to that the number of possible phylogenetic trees increases at a super-exponential rate as the number of taxa increases. The latter one is due to that the phylogenetic tree has often a rugged energy landscape. In this paper, we propose a new phylogenetic tree construction method, which attempts to alleviate these two difficulties simultaneously by making use of the sequential structure of phylogenetic trees in conjunction with stochastic approximation Monte Carlo (SAMC) simulations. The use of the sequential structure of the problem provides substantial help to reduce the curse of dimensionality in simulations, and SAMC effectively prevents the system from getting trapped in local energy minima. The new method is compared with a variety of existing Bayesian and non-Bayesian methods on simulated and real datasets. Numerical results are in favor of the new method in terms of quality of the resulting phylogenetic trees.",
+		"DOI": "https://doi.org/10.1016/j.biosystems.2007.08.003",
+		"author": [
+			{
+				"family": "Cheon",
+				"given": "S."
+			},
+			{
+				"family": "Liang",
+				"given": "F."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008",
+					1
+				]
+			]
+		}
+	},
+	{
+		"type": "article-journal",
+		"title": "Data Mining in Genomics",
+		"container-title": "Clinics in Laboratory Medicine(1.971)",
+		"page": "145-166",
+		"volume": "28",
+		"issue": "1",
+		"source": "PubMed Central",
+		"abstract": "In this paper we review important emerging statistical concepts, data mining techniques, and applications that have been recently developed and used for genomic data analysis. First, we summarize general background and some critical issues in genomic data mining. We then describe a novel concept of statistical significance, so-called false discovery rate, the rate of false positives among all positive findings, which has been suggested to control the error rate of numerous false positives in large screening biological data analysis. In the next section two recent statistical testing methods---significance analysis of microarray (SAM) and local pooled error (LPE) tests are introduced. We next introduce statistical modeling in genomic data analysis such as ANOVA and heterogeneous error modeling (HEM) approaches that have been suggested for analyzing microarray data obtained from multiple experimental and/or biological conditions. The following two sections describe data exploration and discovery tools largely termed as: supervised learning and unsupervised learning. The former approaches include several multivariate statistical methods to investigate co-expression patterns of multiple genes, and the latter approaches are the classification methods to discover genomic biomarker signatures for predicting important subclasses of human diseases. The last section briefly summarizes various genomic data mining approaches in biomedical pathway analysis and patient outcome and/or chemotherapeutic response prediction. Many of the software packages introduced in this paper are freely available at Bioconductor, the open-source Bioinformatics software web site (http://www.bioconductor.org/).",
+		"DOI": "https://doi.org/10.1016/j.biosystems.2007.08.003",
+		"author": [
+			{
+				"family": "Lee",
+				"given": "J.K."
+			},
+			{
+				"family": "Williams",
+				"given": "P.D."
+			},
+			{
+				"family": "Cheon",
+				"given": "S."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008",
+					3
+				]
+			]
+		}
+	}
+]

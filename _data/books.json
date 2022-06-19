@@ -1,0 +1,25 @@
+[
+	{
+		"type": "article-journal",
+		"title": "JMP를 이용한 판별분석/군집분석",
+		"source": "교우사",
+		"author": [
+			{
+				"family": "최",
+				"given": "종후"
+			},
+			{
+				"family": "전",
+				"given": "수영"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					2
+				]
+			]
+		}
+	}
+]

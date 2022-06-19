@@ -1,0 +1,31 @@
+[
+	{
+		"type": "article-journal",
+		"title": "패널회귀모형에서 최대엔트로피 추정량에 관한 연구",
+		"container-title": "응용통계연구",
+		"page": "521-534",
+		"volume": "19",
+		"issue": "3",
+		"source": "한국통계학회",
+		"abstract": "This paper considers a panel regression model with ill-posed data and proposes thegeneralized maximum entropy(GME) estimator of the unknown parameters. Theseare natural extensions from the biometrics, statistics and econometrics literature. The",
+		"DOI": "G704-000408.2006.19.3.014",
+		"author": [
+			{
+				"family": "송",
+				"given": "석헌"
+			},
+			{
+				"family": "전",
+				"given": "수영"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2006",
+					11
+				]
+			]
+		}
+	}
+]
